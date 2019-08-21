@@ -2,9 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Demo on Github Pages can be found here: [https://michaeltran.github.io/React-Burger-Builder/](https://michaeltran.github.io/React-Burger-Builder/).
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+
+Deploys the application to Github Pages.
 
 ### `npm start`
 
