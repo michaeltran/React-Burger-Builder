@@ -1,4 +1,4 @@
-# Based on the React tutorial on Udemy by Maximilian Schwarzmüller
+# Burger Builder Application Built with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
