@@ -106,6 +106,7 @@ class ContactData extends Component {
         event.preventDefault();
 
         const formData = {};
+        // eslint-disable-next-line
         for (let formElementIdentifier in this.state.orderForm) {
             formData[formElementIdentifier] = this.state.orderForm[formElementIdentifier].value;
         }
@@ -132,6 +133,7 @@ class ContactData extends Component {
         });
 
         let formIsValid = true;
+        // eslint-disable-next-line
         for (let inputIdentifier in updatedOrderForm) {
             formIsValid = updatedOrderForm[inputIdentifier].valid && formIsValid;
         }
@@ -141,6 +143,7 @@ class ContactData extends Component {
 
     render() {
         const formElementsArray = [];
+        // eslint-disable-next-line
         for (let key in this.state.orderForm) {
             formElementsArray.push({
                 id: key,

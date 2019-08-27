@@ -64,6 +64,7 @@ export class BurgerBuilder extends Component {
             ...this.props.ings
         }
 
+        // eslint-disable-next-line
         for (let key in disabledInfo) {
             disabledInfo[key] = disabledInfo[key] <= 0;
         }

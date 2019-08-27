@@ -74,6 +74,7 @@ class Auth extends Component {
 
     render() {
         const formElementsArray = [];
+        // eslint-disable-next-line
         for (let key in this.state.controls) {
             formElementsArray.push({
                 id: key,
@@ -138,7 +139,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onAuth: (email, password, isSignup) => dispatch(actions.auth(email, password, isSignup)),
+        onAuth: (email, password, isSignup) => dispatch(actions.authUser(email, password, isSignup)),
         onSetAuthRedirectPath: () => dispatch(actions.setAuthRedirectPath('/'))
     };
 };
