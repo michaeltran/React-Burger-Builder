@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/michaeltran/React-Burger-Builder/master/src/assets/images/burger-logo.png" />
+</p>
+
 # Burger Builder Application Built with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
